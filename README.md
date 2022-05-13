@@ -9,7 +9,7 @@ The documentation for Logstash Java plugins is available [here](https://www.elas
 ```
 outupt { 
   couchbase {
-            hosts =>                 ["${couchbase_hosts_1}","${couchbase_hosts_2}","${couchbase_hosts_3}","${couchbase_hosts_4}","${couchbase_hosts_5}","${couchbase_hosts_6}"]
+            hosts => ["${couchbase_hosts_1}","${couchbase_hosts_2}"]
             bucket_name => "${couchbase_username}"
             bucket_password => "${couchbase_password}"
             document_id => "id"
