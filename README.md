@@ -6,13 +6,13 @@ It is fully free and fully open source. The license is Apache 2.0, meaning you a
 
 The documentation for Logstash Java plugins is available [here](https://www.elastic.co/guide/en/logstash/6.7/contributing-java-plugin.html).
 
-
-
-```
+## Step 1 : 
 ###### gradle.properties
+```
 LOGSTASH_CORE_PATH=/Users/Downloads/ELK/logstash-7.16.3
 ```
 
+## Example : 
 ```
 outupt { 
   couchbase {
