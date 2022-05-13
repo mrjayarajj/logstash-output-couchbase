@@ -12,6 +12,20 @@ The documentation for Logstash Java plugins is available [here](https://www.elas
 LOGSTASH_CORE_PATH=/Users/Downloads/ELK/logstash-7.16.3
 ```
 
+## Step 2 : 
+###### build.sh
+```
+./gradlew gem
+which will generate gem file
+```
+
+## Step 3 : 
+###### installation to logstash
+```
+${logstash_path}/bin/logstash-plugin install --no-verify --local ${logstash_custom_plugin_path}/logstash-output-couchbase-1.0.1.gem
+```
+
+
 ## Example : 
 ```
 outupt { 
